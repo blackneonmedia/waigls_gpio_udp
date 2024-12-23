@@ -22,7 +22,7 @@ try:
         if button_state == GPIO.LOW:  # Taster gedrückt (bei Pull-Up)
             print("Taster gedrückt! Sende UDP-Nachricht...")
             sock.sendto(MESSAGE, (UDP_IP, UDP_PORT))
-            time.sleep(0.5)  # Entprellen
+            time.sleep(0.5)  # Entprellen 0,5 Sekunden
 except KeyboardInterrupt:
     print("Beenden...")
 finally:
