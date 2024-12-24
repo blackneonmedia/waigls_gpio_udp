@@ -28,4 +28,4 @@
     sudo python3 ./udp_app/udp_button.py
     
     
-### für Broadcast einfach die Zeile mit der Ziel-IP auskommentieren oder löschen.
+### für Broadcast einfach die Zeile mit der Ziel-IP (UDP_IP) auskommentieren oder löschen.
