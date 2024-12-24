@@ -6,7 +6,7 @@ import time
 BUTTON_GPIO_PIN = 18  # Auf den Pin ändern an dem der Taster angeklemmt ist
 UDP_IP = "192.168.1.100"  # Ziel-IP-Adresse
 UDP_PORT = 5005           # Ziel-Port
-MESSAGE = b"Servus ich bin eim Tastendruck!"  # Nachricht, die gesendet werden soll
+MESSAGE = b"Servus i bims, eins Tastendruck!"  # Nachricht, die gesendet werden soll
 
 # GPIO einrichten
 GPIO.setmode(GPIO.BCM)  # BCM-Nummerierung verwenden
